@@ -31,6 +31,6 @@ function destructivelyAddElementToEndOfArray(array, element){
 array.push(element);
 return array}
 
-function destructivelyRemoveElementFromEndOfArray(array, element){
-array.unshift(element);
+function destructivelyRemoveElementFromEndOfArray(array){
+array.pop();
 return array}
