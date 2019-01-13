@@ -22,3 +22,11 @@ return nuArray}
 function removeElementFromEndOfArray(array){
 coolArray = array.slice(0, array.length - 1);
 return coolArray}
+
+function addElementToEndOfArray(array, element) {
+newArray = [...array, element];
+return newArray}
+
+function destructivelyAddElementToEndOfArray(array, element){
+array.unshift(element);
+return array}
