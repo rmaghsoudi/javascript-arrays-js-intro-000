@@ -30,3 +30,7 @@ return newArray}
 function destructivelyAddElementToEndOfArray(array, element){
 array.push(element);
 return array}
+
+function destructivelyRemoveElementFromEndOfArray(array, element){
+array.unshift(element);
+return array}
